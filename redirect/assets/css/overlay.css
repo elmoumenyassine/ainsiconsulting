@@ -1,0 +1,118 @@
+.overlay{position: absolute;
+    display: flex;
+    top: 40%;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+   }
+    .overlay .videoButtonWrapper{
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    .videoBackgroundWrapper{position: relative; width: 100%;}
+    .videoBackground{width: 100%;}
+      .tooltip:hover .tooltiptext {
+          visibility: visible;
+      }
+
+
+      #background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+
+      footer {
+        
+        max-width: 200%;
+        background: #222;
+        color: #aaa;
+        padding-top: 0px;
+        bottom:0%;
+
+      }
+      
+      footer a {
+        color: #aaa;
+        bottom:0%;
+
+      }
+      
+      footer a:hover {
+        color: #fff;
+        bottom:0%;
+
+      }
+      
+      footer h3 {
+       color: #0894d1;
+        letter-spacing: 1px;
+        margin: 0px 0 0px;
+        bottom:0%;
+
+      }
+      
+      footer .three-column {
+       overflow: hidden;
+       bottom:0%;
+
+      }
+      
+      footer .three-column li{
+       width: 33.3333%;
+        float: left;
+        padding: 5px 0;
+        bottom:0%;
+
+      }
+      
+      footer .socila-list {
+        overflow: hidden;
+        margin: 20px 0 10px;
+        bottom:0%;
+
+      }
+      
+      footer .socila-list li {
+        float: left;
+        margin-right: 3px;
+        opacity: 0.7;
+        overflow: hidden;
+        border-radius: 50%;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      footer .socila-list li:hover {
+        opacity: 1;
+      }
+      
+      footer .img-thumbnail {
+        background: rgba(0, 0, 0, 0.2);
+        border: 1px solid #444;
+        margin-bottom: 5px;
+      }
+      
+      footer .copyright {
+        padding: 15px;
+        background: #333;
+        margin-top: 0px;
+        font-size: 15px;
+        bottom:0%;
+      }
+      
+      footer .copyright span {
+        color: #0894d1;
+      }
+
+      
